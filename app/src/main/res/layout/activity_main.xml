@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zkx.activity1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <EditText
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:hint="绑定到标签"
+
+            />
+        <Button
+            android:id="@+id/inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="内部类"
+            />
+        <Button
+            android:id="@+id/outer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外部类"
+            />
+        <Button
+            android:id="@+id/anonymous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="匿名内部类"
+            />
+        <Button
+            android:id="@+id/activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity"
+            />
+        <Button
+            android:id="@+id/bind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绑定到标签"
+            android:onClick="clickHandler"
+            />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
